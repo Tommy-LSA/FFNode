@@ -1,0 +1,1 @@
+small nodejs microservice. It listen on a port for a http GET with parameter 'nodeid'. If this node ID exist in Freifunk nodes on defined hopglass-server a JSON object with this single node details. This allows the monitoring of a single node without handling the whole list in frontend.
